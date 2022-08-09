@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sketch-a-Etch</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="header">Etch-A-Sketch</div>
+    <div class="main">
+      <div class="game-options">
+        <div class="color-button"><button>Color selector</button></div>
+        <div class="random-button"><button>Random color</button></div>
+        <div class="eraser-button"><button>Eraser</button></div>
+        <div class="reset-button"><button>Reset</button></div>
+        <div class="number-Button">
+          <div class="slidecontainer">
+            <input
+              type="range"
+              min="1"
+              max="100"
+              value="50"
+              class="slider"
+              id="grid-size"
+            />
+            <p>Grid-size <span id="demo"></span></p>
+          </div>
+          <button class="accept">✔️</button>
+        </div>
+        <div></div>
+      </div>
+      <div class="square-game">
+        <div class="square-container"></div>
+      </div>
+      <div class="footer"></div>
+    </div>
+  </body>
+</html>
