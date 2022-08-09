@@ -34,17 +34,15 @@ html {
   max-height: 960px;
 }
 .square-container {
-  max-width: 960px;
-  max-height: 960px;
+  width: 500px;
+  height: 500px;
   display: grid;
-  grid-template-columns: repeat(16, 1fr);
-  grid-template-rows: repeat(16, 1fr);
   border: 1px solid;
   margin-left: 100px;
 }
 .box {
-  height: 40px;
-  width: 40px;
+  max-height: 50px;
+  max-width: 50px;
   background: white;
 }
 button {
